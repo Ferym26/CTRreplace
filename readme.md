@@ -20,7 +20,10 @@ $ npm i -g gulp (*)
 
 
 ### Особенности
- - замена jq: таск ищет и меняет именно эту строку "<script src="http://code.jquery.com/jquery-latest.min.js"></script>"
+ - замена jq: таск ищет и меняет именно эту строку
+ ```sh
+ <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+ ```
  - тег в футер нужно проставлять руками, ввиду большого количества разных вариантов верстки
  - action="" должен быть пустым
- - чистый <body>
+ - чистый body (без классов и id)
