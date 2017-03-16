@@ -43,6 +43,16 @@ gulp.task('ctr', function () {
           replacement: 'action="<?php echo $form_order_action;?>"'
         },
 
+        {
+          match: /<\/form>/,
+          replacement: '<?php echo $traf_form_input; ?></form>'
+        },
+
+        {
+          match: /<\/body>/,
+          replacement: '<?php echo $every_page_pixel;?></body>'
+        },
+
         
       ]
     }))

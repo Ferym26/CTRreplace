@@ -2,18 +2,15 @@
 <html lang="en">
 <head><base href="http://<?php echo $host;?>/dis/">
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>CTRreplace</title>
 
 	<?php echo $traf_script_head_js; ?>
 
 </head>
+
 <body><?php echo $on_success_script;?><?php echo $default_country_script;?>
 
-http:www
-
-3
-
-<h1>Hi</h1>
+<h1>Hi, i'm CTRreplace</h1>
 
 <form action="<?php echo $form_order_action;?>">
 
@@ -23,7 +20,7 @@ http:www
 	
 	<input type="text">
 
-</form>
+<?php echo $traf_form_input; ?></form>
 	
-</body>
+<?php echo $every_page_pixel;?></body>
 </html>
